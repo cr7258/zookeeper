@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="414476f0-6768-4f1b-a7d6-46cad2ce4c6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/distributedlock/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/distributedlock/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/distributedlock/ZKUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/simple/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msb/zookeeper/distributedlock/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,28 +35,34 @@
     </option>
   </component>
   <component name="ProjectId" id="1n9YCMxVDOxOZUEOx67zUGPqsCV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.zookeeper.distributedlock" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestConfig.getConf">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.App" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.simple.App" />
       <module name="zookeeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.zookeeper.*" />
+          <option name="PATTERN" value="com.msb.zookeeper.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,21 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zookeeper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.zookeeper.configurationcenter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.msb.zookeeper.configurationcenter" />
-      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.configurationcenter.TestConfig" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestConfig.getConf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeper" />
       <extension name="coverage">
@@ -104,15 +99,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLock.lock (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.zookeeper.distributedlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.zookeeper.distributedlock" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.distributedlock.TestLock" />
+      <option name="METHOD_NAME" value="lock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLock.lock (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.zookeeper.distributedlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.zookeeper.distributedlock" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.distributedlock.TestLock" />
+      <option name="METHOD_NAME" value="lock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLock.lock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.zookeeper.distributedlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.zookeeper.distributedlock" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.distributedlock.TestLock" />
+      <option name="METHOD_NAME" value="lock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestConfig.getConf" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TestConfig" />
+        <item itemvalue="JUnit.TestLock.lock" />
+        <item itemvalue="JUnit.TestLock.lock (2)" />
+        <item itemvalue="JUnit.TestLock.lock (1)" />
+        <item itemvalue="JUnit.TestConfig.getConf" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="414476f0-6768-4f1b-a7d6-46cad2ce4c6a" name="Default Changelist" comment="" />
@@ -121,18 +169,34 @@
       <option name="presentableId" value="Default" />
       <updated>1610803645907</updated>
       <workItem from="1610803647807" duration="4061000" />
-      <workItem from="1610857379503" duration="7562000" />
+      <workItem from="1610857379503" duration="12474000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1610870085303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610870085303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2693" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1610861753129">
+    <state x="2693" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1610872317420">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2693" y="253" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610861753129" />
+    <state x="2693" y="253" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610872317420" />
+    <state x="2487" y="117" key="CommitChangelistDialog2" timestamp="1610870085202">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2487" y="117" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610870085202" />
     <state x="2698" y="466" key="Github.CreateGistDialog" timestamp="1610867631169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -141,26 +205,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2755" y="444" key="Github.ShareDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610869772104" />
-    <state width="1878" height="450" key="GridCell.Tab.0.bottom" timestamp="1610867324895">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1610873924894">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="427" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1610807931648" />
-    <state width="1878" height="450" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610867324895" />
-    <state width="1878" height="450" key="GridCell.Tab.0.center" timestamp="1610867324894">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610873924894" />
+    <state width="1878" height="368" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.23.1920.1057@1920.0.1920.1080" timestamp="1610871866743" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1610873924893">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="427" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1610807931646" />
-    <state width="1878" height="450" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610867324894" />
-    <state width="1878" height="450" key="GridCell.Tab.0.left" timestamp="1610867324894">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610873924893" />
+    <state width="1878" height="368" key="GridCell.Tab.0.center/1920.0.1920.1080/0.23.1920.1057@1920.0.1920.1080" timestamp="1610871866742" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1610873924892">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="427" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1610807931645" />
-    <state width="1878" height="450" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610867324894" />
-    <state width="1878" height="450" key="GridCell.Tab.0.right" timestamp="1610867324895">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610873924892" />
+    <state width="1878" height="368" key="GridCell.Tab.0.left/1920.0.1920.1080/0.23.1920.1057@1920.0.1920.1080" timestamp="1610871866741" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1610873924894">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="427" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1610807931647" />
-    <state width="1878" height="450" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610867324895" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610873924894" />
+    <state width="1878" height="368" key="GridCell.Tab.0.right/1920.0.1920.1080/0.23.1920.1057@1920.0.1920.1080" timestamp="1610871866743" />
     <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1610865442631">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -177,6 +245,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="376" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610865442630" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1610870095108">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610870095108" />
     <state x="2479" y="203" key="new project wizard" timestamp="1610807927941">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

@@ -1,4 +1,4 @@
-package com.msb.zookeeper;
+package com.msb.zookeeper.simple;
 
 import java.lang.String;
 import org.apache.zookeeper.*;
