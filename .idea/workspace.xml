@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="414476f0-6768-4f1b-a7d6-46cad2ce4c6a" name="Default Changelist" comment="" />
+    <list default="true" id="414476f0-6768-4f1b-a7d6-46cad2ce4c6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1n9YCMxVDOxOZUEOx67zUGPqsCV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -114,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610803645907</updated>
       <workItem from="1610803647807" duration="4061000" />
-      <workItem from="1610857379503" duration="7201000" />
+      <workItem from="1610857379503" duration="7562000" />
     </task>
     <servers />
   </component>
@@ -130,6 +137,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2698" y="466" key="Github.CreateGistDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610867631169" />
+    <state x="2755" y="444" key="Github.ShareDialog" timestamp="1610869772104">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2755" y="444" key="Github.ShareDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610869772104" />
     <state width="1878" height="450" key="GridCell.Tab.0.bottom" timestamp="1610867324895">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -174,5 +185,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2545" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1610805181721" />
+    <state x="2718" y="338" key="svn.repositoryBrowser" timestamp="1610869965572">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2718" y="338" key="svn.repositoryBrowser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610869965572" />
   </component>
 </project>
